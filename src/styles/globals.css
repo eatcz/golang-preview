@@ -18,10 +18,14 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  /* background-color: rgb(31 41 55 / 1) */
+}
+
+
+.react-pdf__Page__textContent{
+  margin-top: 100px;
+}
+
+.preview:hover .pagin{
+  display: block;
 }
