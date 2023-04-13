@@ -21,7 +21,7 @@ const Pdf: React.FC = () => {
   function onDocumentLoadSuccess({
     numPages,
   }: {
-    numPages: SetStateAction<null>;
+    numPages: SetStateAction<number>;
   }) {
     setNumPages(numPages);
   }
