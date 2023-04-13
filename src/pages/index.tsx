@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Pdf from "@/components/Pdf";
 export default function Home() {
   return (
