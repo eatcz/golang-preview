@@ -35,7 +35,7 @@ const Pdf: React.FC = () => {
     <div className="previrew">
       {/* file: 可以是 URL、base64 内容、Uint8Array 等*/}
       <Document
-        className="flex justify-center preview"
+        className="flex preview md:justify-center"
         file={file}
         onLoadSuccess={onDocumentLoadSuccess}
       >
